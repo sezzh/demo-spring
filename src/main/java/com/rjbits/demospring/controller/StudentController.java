@@ -19,4 +19,9 @@ public class StudentController {
         return new Student(4, "jesús", "Los odio a todos");
     }
 
+    @RequestMapping(value = "/holi", method = RequestMethod.GET)
+    public  String holi() {
+        return "holi";
+    }
+
 }
