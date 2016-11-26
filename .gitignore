@@ -1,0 +1,10 @@
+# things you should ignore.
+# intellij
+.idea/
+*.iml
+*.iws
+
+# Maven
+
+log/
+target/
